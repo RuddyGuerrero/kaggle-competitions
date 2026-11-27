@@ -19,4 +19,4 @@ Download the competition data into `Data/` before running the notebook (see the 
 kaggle competitions download -c digit-recognizer -p "Digit Recognizer/Data"
 ```
 
-The notebook reads it from `../input/digit-recognizer/`, the path Kaggle uses when it runs there; change the paths in the loading cell to run it locally.
+The notebook finds the data on its own: under `/kaggle/input` on Kaggle (add the competition with **+ Add Input**) or in `Data/` when running locally.
