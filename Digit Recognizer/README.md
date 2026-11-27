@@ -1,7 +1,7 @@
-# <p align="center"><A href="https://www.kaggle.com/c/digit-recognizer/overview">Digit-Recognizer</A></p>
+# <p align="center"><a href="https://www.kaggle.com/c/digit-recognizer/overview">Digit Recognizer</a></p>
 
 <p align="center">
-  <img src="img\numbers2.png" width=100% height=auto>
+  <img src="img/numbers2.png" width="100%" height="auto">
 </p>
 
 ## **Competition Description**
@@ -10,3 +10,13 @@ MNIST ("Modified National Institute of Standards and Technology") is the de fact
 
 In this competition, your goal is to correctly identify digits from a dataset of tens of thousands of handwritten images. We’ve curated a set of tutorial-style kernels which cover everything from regression to neural networks. We encourage you to experiment with different algorithms to learn first-hand what works well and how techniques compare.
 
+
+## Data
+
+Download the competition data into `Data/` before running the notebook (see the [root README](../README.md#data)):
+
+```bash
+kaggle competitions download -c digit-recognizer -p "Digit Recognizer/Data"
+```
+
+The notebook reads it from `../input/digit-recognizer/`, the path Kaggle uses when it runs there; change the paths in the loading cell to run it locally.
