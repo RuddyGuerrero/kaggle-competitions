@@ -1,0 +1,19 @@
+# Kaggle competition data (download it with the Kaggle CLI, see README)
+**/Data/
+*.csv
+
+# Model artifacts and training outputs
+*.h5
+*.keras
+*.pkl
+
+# Jupyter and Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
