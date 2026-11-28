@@ -16,7 +16,7 @@ This repository is a collection of my answers to Kaggle problems.
 
 | Competition | Approach | Score | Notebook |
 |-------------|----------|------:|----------|
-| [Digit Recognizer](https://www.kaggle.com/c/digit-recognizer) | Ensemble of 7 CNNs with data augmentation | 99.625% | [notebook](Digit%20Recognizer/digit-recognizer-ensemble-methods-cnn-99-625.ipynb) |
+| [Digit Recognizer](https://www.kaggle.com/c/digit-recognizer) | Ensemble of 7 CNNs with data augmentation | 99.453% public (99.5% validation) | [notebook](Digit%20Recognizer/digit-recognizer-ensemble-of-7-cnns-keras-3.ipynb) |
 
 ## Data
 
